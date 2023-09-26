@@ -7,7 +7,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	int size_t i, j;
+	size_t i, j;
 	int temp;
 
 	if (!array || !size)
@@ -23,7 +23,7 @@ void bubble_sort(int *array, size_t size)
 				temp = array[j];
 				array[j] = array[j + 1];
 				array[j + 1] = temp;
-				print_array(array, size)
+				print_array(array, size);
 			}
 		}
 		i++;
